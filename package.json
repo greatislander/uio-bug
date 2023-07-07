@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "infusion": "4.6.0"
+  },
+  "scripts": {
+    "postinstall": "cpy infusion '../../lib' --cwd=node_modules"
+  },
+  "devDependencies": {
+    "cpy-cli": "5.0.0",
+    "make-dir-cli": "3.1.0"
+  }
+}
