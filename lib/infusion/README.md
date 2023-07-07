@@ -139,7 +139,7 @@ below.
 
 ##### -i, --include
 
-**value**: "module(s)" (String)
+__value__: "module(s)" (String)
 _only available to custom builds_
 
 The `--include` option takes a comma-separated string of the [Modules](#modules) to be included in a custom package.
@@ -155,7 +155,7 @@ npm run build:pkg:custom -- -i "fluid-inline-edit, fluid-ui-options"
 
 ##### -e, --exclude
 
-**value**: "module(s)" (String)
+__value__: "module(s)" (String)
 _only available to custom builds_
 
 The `--exclude` option takes a comma-separated string of the [Modules](#modules) to be excluded from a custom package.
@@ -170,7 +170,7 @@ npm run build:pkg:custom -- -e jquery
 
 ##### -n, --name
 
-**value**: "custom suffix" (String)
+__value__: "custom suffix" (String)
 _only available to custom packages which have specified an include and/or exclude option_
 
 By default, custom packages are given a name in the form _infusion-custom-{version}.zip_ and the concatenated JavaScript
@@ -195,7 +195,7 @@ infusion-uio-vx.y.z.zip) can be produced by the following commands:
 
 ```bash
 npm run build:pkg
-npm run build:pkg:custom -- -i "fluid-ui-options" -n uio
+npm run npm run build:pkg:custom -- -i "fluid-ui-options" -n uio
 ```
 
 The zip files will obliterate the contents of the `products` directory and must be copied out after each command.
